@@ -1,4 +1,4 @@
-# 🚀 ResumeAI Pro - Intelligent Resume & Job Matching Platform
+# ResumeAI Pro - Intelligent Resume & Job Matching Platform
 
 > **An AI-powered SaaS platform that analyzes resumes, predicts ATS scores, and recommends tailored job opportunities using advanced NLP and machine learning.**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **ResumeAI Pro** is a full-stack SaaS platform designed to bridge the gap between job seekers and employers by leveraging AI-powered resume analysis and intelligent job matching. The platform helps users:
 
@@ -48,7 +48,7 @@
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
 ### 1. **Resume Analysis Engine**
 ```javascript
@@ -97,7 +97,7 @@
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### **Backend**
 | Component | Technology | Purpose |
@@ -134,7 +134,7 @@
 
 ---
 
-## 🏛️ Project Architecture
+## Project Architecture
 
 ### **System Architecture Diagram**
 ```
@@ -245,7 +245,7 @@ resume-and-job-scanner/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### **Prerequisites**
 - Node.js v18+ and npm v9+
@@ -308,7 +308,7 @@ npm start
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### **Authentication Endpoints**
 
@@ -456,7 +456,7 @@ curl -X GET http://localhost:5000/api/admin/users \
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### **User Collection**
 ```javascript
@@ -515,7 +515,7 @@ curl -X GET http://localhost:5000/api/admin/users \
 
 ---
 
-## 🧠 Advanced Features
+## Advanced Features
 
 ### **1. Intelligent Resume Scoring**
 - **Multi-factor Analysis**: Content, formatting, ATS compliance, keyword matching
@@ -547,7 +547,7 @@ curl -X GET http://localhost:5000/api/admin/users \
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Target | Status |
 |--------|--------|--------|
@@ -561,7 +561,7 @@ curl -X GET http://localhost:5000/api/admin/users \
 
 ---
 
-## 🚦 Testing & Quality Assurance
+## Testing & Quality Assurance
 
 ### **Backend Testing**
 ```bash
@@ -584,7 +584,7 @@ npm run test:e2e           # End-to-end tests
 
 ---
 
-## 🎯 Future Roadmap
+## Future Roadmap
 
 ### **Phase 2 (Q2 2026)**
 - [ ] Video resume analysis with facial expression detection
@@ -609,7 +609,7 @@ npm run test:e2e           # End-to-end tests
 
 ---
 
-## 💡 Key Technical Achievements
+## Key Technical Achievements
 
 1. **Full-Stack Expertise**: End-to-end development from database to UI
 2. **AI Integration**: Seamless OpenAI API integration with error handling
@@ -622,7 +622,7 @@ npm run test:e2e           # End-to-end tests
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 
@@ -634,23 +634,23 @@ Contributions welcome! Please:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Pradhakshini P**
-- 📧 Email: pradhakshini@example.com
-- 💼 LinkedIn: [linkedin.com/in/pradhakshini](https://linkedin.com)
-- 🐙 GitHub: [@Pradhakshini-p](https://github.com/Pradhakshini-p)
-- 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
+- Email: pradhakshini@example.com
+-  LinkedIn: [linkedin.com/in/pradhakshini](https://linkedin.com)
+- GitHub: [@Pradhakshini-p](https://github.com/Pradhakshini-p)
+- Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for GPT-3.5 API
 - MongoDB Atlas for cloud database
@@ -659,7 +659,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+## Support
 
 For questions, issues, or feature requests:
 - Create an issue on [GitHub Issues](https://github.com/Pradhakshini-p/Smart-Resume-Job-Assistant/issues)
