@@ -1,11 +1,133 @@
-ResumeAI Pro is an AI-powered SaaS platform that analyzes resumes, predicts ATS scores, and recommends personalized job opportunities using advanced natural language processing and machine learning techniques.
-This platform is designed to bridge the gap between job seekers and employers. It helps users improve their resumes, identify missing skills, and find job opportunities that match their profile. The system provides real-time ATS scoring, detects keyword gaps, and offers intelligent suggestions to improve resume quality. It also tracks application performance and supports interview preparation with grammar and content feedback.
-The main problem addressed by this platform is that a large percentage of resumes are rejected by ATS systems before reaching human recruiters. Many job seekers also struggle to optimize their resumes and spend excessive time searching for relevant jobs. ResumeAI Pro solves these issues by offering data-driven insights, improving resume visibility, and reducing job search effort significantly.
-Key features of the platform include a resume analysis engine that supports multiple formats such as PDF and DOCX, extracts text, calculates ATS scores, and evaluates skill matching. It also includes an AI recommendation system that provides personalized suggestions, identifies missing keywords, and improves resume content quality. The job recommendation system uses machine learning techniques such as collaborative filtering and similarity matching to suggest relevant job roles. In addition, the platform includes secure user authentication, role-based access control, and an admin dashboard for monitoring platform usage and analytics.
-The backend of the application is built using Node.js and Express.js, with MongoDB as the database. It uses JWT for authentication and integrates with the OpenAI API for AI-based recommendations. The frontend is developed using React with Tailwind CSS for styling, along with libraries such as Axios for API communication and Recharts for data visualization. The project also follows best practices in security, validation, and error handling.
-The architecture of the system follows a modular full-stack design with a React frontend communicating with an Express backend through REST APIs. The backend handles authentication, resume processing, job matching, and admin operations, while MongoDB stores user data, resumes, and job information.
-The platform includes several advanced features such as intelligent resume scoring based on multiple factors, NLP-based keyword extraction, grammar analysis, and personalized career suggestions. The job matching system uses cosine similarity and collaborative filtering to provide accurate recommendations based on user skills and preferences.
-Performance-wise, the system achieves fast resume analysis within a few seconds, high ATS score accuracy, and efficient API response times. It is designed to be scalable, secure, and user-friendly.
-Future enhancements include features like video resume analysis, LinkedIn profile integration, real-time job alerts, mobile applications, AI-based interview coaching, salary guidance, and enterprise-level deployment options.
-This project demonstrates strong full-stack development skills, integration of AI technologies, scalable system design, and a focus on real-world problem solving. It follows industry standards in security, API design, and user experience, making it a production-ready application.
-The project is developed by Pradhakshini P and is available on GitHub for further contributions and improvements.
+ResumeAI Pro
+
+ResumeAI Pro is an AI-powered SaaS platform that analyzes resumes, predicts ATS scores, and recommends personalized job opportunities using natural language processing and machine learning.
+
+Overview
+
+ResumeAI Pro helps job seekers improve their resumes and find better job opportunities. It provides real-time ATS scoring, identifies missing skills, and gives actionable suggestions to enhance resume quality. The platform also recommends jobs based on the user’s skill set and career profile.
+
+Problem Statement
+
+Many resumes are rejected by Applicant Tracking Systems before reaching recruiters. Job seekers often lack clear guidance on improving their resumes and spend a lot of time searching for relevant jobs.
+
+Solution
+
+This platform solves these problems by:
+
+Providing AI-based resume analysis and scoring
+Identifying missing keywords and skills
+Recommending jobs based on user profile
+Reducing job search time with smart suggestions
+Key Features
+Resume Analysis
+Supports PDF and DOCX files
+Extracts and analyzes resume content
+Generates ATS score (0–100)
+Detects grammar and formatting issues
+AI Recommendations
+Provides personalized suggestions
+Identifies missing keywords
+Improves resume quality
+Job Recommendation System
+Matches jobs based on skills
+Uses machine learning for better recommendations
+Tracks user application history
+User Management
+Secure authentication using JWT
+Role-based access (user and admin)
+Password encryption
+Admin Dashboard
+View user statistics
+Monitor resume analysis data
+Manage job postings
+Tech Stack
+Backend
+Node.js
+Express.js
+MongoDB
+JWT Authentication
+OpenAI API
+Frontend
+React
+Tailwind CSS
+Axios
+Recharts
+Project Architecture
+
+The application follows a full-stack architecture:
+
+React frontend for user interface
+Express backend for API handling
+MongoDB database for storing data
+AI integration for analysis and recommendations
+Getting Started
+Prerequisites
+Node.js
+MongoDB
+OpenAI API key
+Installation
+
+Clone the repository:
+git clone https://github.com/Pradhakshini-p/Smart-Resume-Job-Assistant.git
+
+Backend setup:
+cd backend
+npm install
+npm run dev
+
+Frontend setup:
+cd frontend
+npm install
+npm start
+
+API Overview
+
+Authentication APIs:
+
+Register user
+Login user
+Get user profile
+
+Resume APIs:
+
+Upload and analyze resume
+Get analysis history
+
+Job APIs:
+
+Get job recommendations
+
+Admin APIs:
+
+View platform statistics
+Database Design
+
+The system uses three main collections:
+
+Users
+Resumes
+Jobs
+
+Each collection stores relevant details such as user data, resume analysis results, and job listings.
+
+Advanced Features
+Intelligent resume scoring
+NLP-based keyword extraction
+Grammar and content analysis
+Skill-based job matching using similarity algorithms
+Performance
+Fast resume analysis
+High ATS scoring accuracy
+Efficient API response time
+Future Enhancements
+Video resume analysis
+LinkedIn integration
+Real-time job alerts
+Mobile application
+AI interview preparation
+Author
+
+Pradhakshini P
+Email: pradhakshini@example.com
+
+GitHub: https://github.com/Pradhakshini-p
